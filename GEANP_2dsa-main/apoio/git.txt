@@ -1,0 +1,8 @@
+git init \\ inicializa o git 
+git config --global user.name "Gean-Piettro"  \\ usuario 
+git config --global user.email "gean.silva36@etec.sp.gov.br" \\ email
+git config --global --add safe.directory C:/laragon/www \\ deixa o diretório confiavel 
+git remote add origin https://github.com/Gean-Piettro/GEANP_2dsa.git \\ para onde vai o arquivo 
+git commit -m "Commit inicial" \\ comentario sobre o que foi feito 
+git branch \\ localiza qual branch é usado 
+git push -u origin master \\ envia as alterações
